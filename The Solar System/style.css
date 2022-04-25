@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  /* background-color: #efedd6; */
+  background-image: url("https://images.unsplash.com/photo-1578497906078-2bdaec4dc648?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTAxfHxzb2xhciUyMHN5c3RlbXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60");
+  background-position: center;
+  /* 
+  background-size: cover;
+  background-repeat: no-repeat;
+  */
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  overflow-x: hidden;
+  color: white;
+}
+
+h1 {
+  margin: 10px;
+}
+
+h2 {
+  color: black;
+}
+
+.box {
+  background-color: steelblue;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 400px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3);
+  transform: translateX(600%);
+  transition: transform 0.6s ease;
+}
+
+.box:nth-of-type(4n-1) {
+  transform: translateX(-600%);
+}
+
+.box.show {
+  transform: translateX(0);
+}
+
+.box h2 {
+  font-size: 45px;
+}
+
+#sun {
+  background-image: url("https://media.istockphoto.com/photos/the-sun-picture-id520222808?b=1&k=20&m=520222808&s=170667a&w=0&h=xlSqW20aQwmv4i5FT4W1lbGSX2hwhilenupdf5F0vuY=");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 500px;
+  height: 500px;
+}
+
+#mercury {
+  background-image: url("https://media.istockphoto.com/photos/mercury-in-colour-picture-id499771042?b=1&k=20&m=499771042&s=170667a&w=0&h=PYOSoxTB85QhNnSY7uBT0LOXOrt_UADplL5Cty-taB0=");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 300px;
+  height: 300px;
+}
+
+#venus {
+  background-image: url("https://media.istockphoto.com/photos/venus-picture-id171149710?b=1&k=20&m=171149710&s=170667a&w=0&h=EI4D2xBY5ZR2NFRkFomyZrM99GUbarDUTW91BcFtRak=");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 350px;
+  height: 350px;
+}
+
+#earth {
+  background-image: url("https://media.istockphoto.com/photos/view-of-earth-from-outer-space-with-north-america-visible-picture-id172923218?b=1&k=20&m=172923218&s=170667a&w=0&h=9GpKFxuYDWvQbE-s5ny7RM0Asl-xNfz7aSvhGLzW9X4=");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#moon {
+  background-image: url("https://media.istockphoto.com/photos/earths-full-moon-v3-picture-id157638771?b=1&k=20&m=157638771&s=170667a&w=0&h=IyK87ZHyPnSVOJdohkGHtKztZ17mpxlUT578pN1LcPc=");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 300px;
+  height: 300px;
+}
+
+#mars {
+  background-image: url("https://media.istockphoto.com/photos/mars-the-red-planet-picture-id1064282352?b=1&k=20&m=1064282352&s=170667a&w=0&h=9s-hWHJlNdHRk8__KDjmCVKB3N40blSbp00gXUsYvO4=");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#jupiter {
+  background-image: url("https://media.istockphoto.com/photos/jupiter-planet-black-background-picture-id1009152604?b=1&k=20&m=1009152604&s=170667a&w=0&h=RrLfr8GoLcUkEZhy_NTc1ANJIgpskAwBag__hgDKd0I=");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 500px;
+  height: 500px;
+}
+
+#saturn {
+  background-image: url("https://images.unsplash.com/photo-1614732414444-096e5f1122d5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c2F0dXJufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 550px;
+  height: 550px;
+}
+
+#uranus {
+  background-image: url("https://media.istockphoto.com/photos/solar-system-series-uranus-with-stars-in-the-background-picture-id177576737?b=1&k=20&m=177576737&s=170667a&w=0&h=iJWBGHxUFsUO3jXXKAnuf4YpLZJBLydLpDR_1JE-Aus=");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+#neptune {
+  background-image: url("https://media.istockphoto.com/photos/neptune-picture-id527343985?b=1&k=20&m=527343985&s=170667a&w=0&h=ihnfKfi5mIMkpWja6siI_1l8mMWGkImoTGrkFguqQCQ=");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#pluto {
+  background-image: url("https://images.unsplash.com/photo-1614314107768-6018061b5b72?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGx1dG98ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 350px;
+  height: 350px;
+}
+
+.content {
+  display: none;
+  color: aqua;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 350px;
+  width: 750px;
+}
+
+.content {
+  display: none;
+}
+
+#sun:hover + #sun_c {
+  display: block;
+}
+#mercury:hover + #mercury_c {
+  display: block;
+}
+#venus:hover + #venus_c {
+  display: block;
+}
+#earth:hover + #earth_c {
+  display: block;
+}
+#moon:hover + #moon_c {
+  display: block;
+}
+#mars:hover + #mars_c {
+  display: block;
+}
+#jupiter:hover + #jupiter_c {
+  display: block;
+}
+#saturn:hover + #saturn_c {
+  display: block;
+}
+#uranus:hover + #uranus_c {
+  display: block;
+}
+#neptune:hover + #neptune_c {
+  display: block;
+}
+#pluto:hover + #pluto_c {
+  display: block;
+}
